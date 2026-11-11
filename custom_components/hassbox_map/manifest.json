@@ -1,0 +1,12 @@
+{
+  "domain": "hassbox_map",
+  "name": "HassBox 地图",
+  "codeowners": ["@HassBox"],
+  "config_flow": true,
+  "dependencies": ["http", "websocket_api", "history", "device_tracker", "sensor", "zone"],
+  "documentation": "https://github.com/hassbox/hassbox-map-integration",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/hassbox/hassbox-map-integration/issues",
+  "version": "20261111.1"
+}
